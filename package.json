@@ -1,0 +1,23 @@
+{
+  "name": "SABook",
+  "version": "1.0.0",
+  "description": "software architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengshiqi1998/SABook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengshiqi1998/SABook/issues"
+  },
+  "homepage": "https://github.com/fengshiqi1998/SABook#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
