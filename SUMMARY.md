@@ -1,1 +1,3 @@
 - [简介](README.md)
+- [单例模式](singleton.md)
+- [设计模式](designmodel.md)
