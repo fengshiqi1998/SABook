@@ -1,0 +1,56 @@
+{
+  "title": "SABOOK",
+  "description" : "Software Architecture",
+  "author": "冯世祺",
+  "language": "zh-hans",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "-highlight",
+    "-sharing",
+    "books",
+    "edit-link",
+    "sharing-plus",
+    "github-buttons@2.1.0"
+  ],
+  "pluginsConfig": {
+    "books": {
+      "prism_themes": "prismjs/themes/prism.css",
+      "github_url": "https://fengshiqi1998.github.io/SABook/"
+    },
+    "theme-default": {
+      "showLevel": false
+    },
+    "github-buttons": {
+      "repo": "fengshiqi1998/SABook",
+      "types": ["star"],
+      "size": "small"
+    },
+    "edit-link": {
+      "base": "https://github.com/fengshiqi1998/SABook/blob/master/",
+      "label": "编辑本页"
+    },
+    "sharing": {
+      "douban": true,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": true,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "weibo", "douban", "qzone", "qq"
+      ]
+    }
+  }
+}

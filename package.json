@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/fengshiqi1998/SABook#readme",
   "devDependencies": {
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "^2.3.2",
+	"books-cli": "^1.0.21"
   }
 }
