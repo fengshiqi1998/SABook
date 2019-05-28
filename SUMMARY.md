@@ -4,5 +4,6 @@
 - [观察者模式](observer.md)
 - [适配器模式](adapter.md)
 - [策略模式](strategy.md)
+- [代理模式](proxy.md)
 - [桥接模式](bridge.md)
 - [迭代器模式](iterator.md)
