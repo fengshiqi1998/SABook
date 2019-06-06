@@ -18,11 +18,11 @@
 
 类的适配器模式（采用**继承**实现）
 
-![success](images/adapter/success.png)
+![success](../images/adapter/success.png)
 
 对象适配器（采用**对象组合**方式实现）
 
-![combine](images/adapter/combine.png)
+![combine](../images/adapter/combine.png)
 
 ## 适配器模式实现步骤
 
@@ -38,23 +38,23 @@
 
 ### 步骤一：被确定目标接口
 
-![step1](images/adapter/step1.png)
+![step1](../images/adapter/step1.png)
 
 ### 步骤二：被确定被适配者
 
-![step2](images/adapter/step2.png)
+![step2](../images/adapter/step2.png)
 
 ### 步骤三
 
 - 创建适配器（类适配器）
 
-![step3_1](images/adapter/step3_1.png)
-![step3_2](images/adapter/step3_2.png)
+![step3_1](../images/adapter/step3_1.png)
+![step3_2](../images/adapter/step3_2.png)
 
 - 创建适配器（对象适配器）
 
-![step3_3](images/adapter/step3_3.png)
-![step3_4](images/adapter/step3_4.png)
+![step3_3](../images/adapter/step3_3.png)
+![step3_4](../images/adapter/step3_4.png)
 
 ## 类适配器和对象适配器哪个更好 
 

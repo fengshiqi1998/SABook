@@ -27,11 +27,11 @@
 
 ### 设计类图
 
-![iteratorDesignClass](images/iteratorDesignClass.png)
+![iteratorDesignClass](../images/iterator/iteratorDesignClass.png)
 
 ## 迭代器模式实现
 
-![iteratorImplement ](images/iteratorImplement%20.png)
+![iteratorImplement ](../images/iterator/iteratorImplement%20.png)
 
 ## 扩展说明
 

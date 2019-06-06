@@ -27,10 +27,10 @@
 
 命令模式有很多种实现形式，比较常见的一种是“客户下达命令-----传达者接收，并传递给执行者----执行者接收到命令，执行命令”。
 
-![commandstep](images/commandstep.png)
+![commandstep](../images/command/commandstep.png)
 
-![commanduml](images/commanduml.png)
+![commanduml](../images/command/commanduml.png)
 
 ## 实现
 
-![commandrealization](images/commandrealization.png)
+![commandrealization](../images/command/commandrealization.png)

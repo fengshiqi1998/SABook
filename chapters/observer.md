@@ -25,7 +25,7 @@
 
 ## 设计类图
 
-![observeruw](images/observeruw.png)
+![observeruw](../images/observer/observeruw.png)
 
 ## 扩展说明
 

@@ -17,7 +17,7 @@
 
 ### 设计类图
 
-![decoratorclass](images/decoratorclass.png)
+![decoratorclass](../images/decorator/decoratorclass.png)
 
 ## 实现
 

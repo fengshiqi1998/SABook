@@ -16,11 +16,11 @@
 - 其次控制全局只有一个实例的类—Static。
 - 第三，提供一个可以获得实例的方法，用于返 回类的实例，并保证得到的是同一个对象。
 
-![singleton](images/singleton.png)
+![singleton](../images/singleton/singleton.png)
 
 #### 代码实现（JAVA）
 
-![singletoncode](images/singletoncode.png)
+![singletoncode](../images/singleton/singletoncode.png)
 
 ### 单例模式的应用举例
 

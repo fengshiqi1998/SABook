@@ -18,7 +18,7 @@
 - 抽象状态类（State）:  定义一个接口以封装与Context的一个特定状态相关的行为。
 - 具体状态类（ConcreteState）:  每一子类实现一个与Context的一个状态相关的行为。
 
-![staterole](images/staterole.png)
+![staterole](../images/state/staterole.png)
 
 ## 实现
 

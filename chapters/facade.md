@@ -19,4 +19,4 @@
 - 外观类:  一个相对复杂的子系统类的外观类。
 - 客户端类:  要使用子系统类中各个方法的用户类。
 
-![facaderole](images/facaderole.png)
+![facaderole](../images/facade/facaderole.png)
