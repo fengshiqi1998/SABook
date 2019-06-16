@@ -12,7 +12,7 @@
 
 策略模式定义了**一系列的算法**，并将每一个**算法封装**起来，而且使它们还可以相互替换。策略模式让算法独立于使用它的客户而独立变化。
 
-![strategyalgorithm](../images/strategyalgorithm.png)
+![strategyalgorithm](../images/strategy/strategyalgorithm.png)
 
 ### 三种角色
 
@@ -26,7 +26,7 @@
 
 - 定义抽象策略类
 
-![strategydefineinterface](../images/strategy/strategdefineinterface.png)
+![strategydefineinterface](../images/strategy/strategydefineinterface.png)
 
 - 实现具体策略类
 

@@ -13,7 +13,7 @@
 - 又叫做“**整体-部分模式**”。
 - 它使树型结构的问题中，**模糊了简单元素和复杂元素的概念**，客户程序可以像处理简单元素一样来处理复杂元素,从而使得客户程序与复杂元素的内部结构**解耦**。
 
-![compositedetail](../../images/composite/compositedetail.png)
+![compositedetail](../images/composite/compositedetail.png)
 
 ### 三种角色
 
@@ -25,17 +25,17 @@
 
 ### 一、定义抽象组件接口
 
-![compositestep1](../../images/composite/compositestep1.png)
+![compositestep1](../images/composite/compositestep1.png)
 
 ### 二、实现叶子节点类，实现抽象组件类的接口
 
-![compositestep2](../../images/composite/compositestep2.png)
+![compositestep2](../images/composite/compositestep2.png)
 
 ### 三、实现组件集合类，实现抽象组件类的接口
 
-![compositestep3](../../images/composite/compositestep3.png)
+![compositestep3](../images/composite/compositestep3.png)
 
 ### 四、定义环境类，将叶子节点和组件集合加入根组件集合
 
-![compositestep4](../../images/composite/compositestep4.png)
+![compositestep4](../images/composite/compositestep4.png)
 

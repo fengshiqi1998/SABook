@@ -12,3 +12,6 @@
 - [十、代理模式](chapters/proxy.md)
 - [十一、桥接模式](chapters/bridge.md)
 - [十二、迭代器模式](chapters/iterator.md)
+- [十三、管道过滤器](chapters/filter.md)
+- [十四、MVC架构](chapters/MVC.md)
+- [十五、软件体系结构风格](chapters/SAstyle.md)
