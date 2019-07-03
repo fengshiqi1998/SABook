@@ -1,0 +1,476 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>六、装饰模式 · SABOOK</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="冯世祺">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-books/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-books/stype.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-books/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-books/katex/dist/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-books/prismjs/themes/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="state.html" />
+    
+    
+    <link rel="prev" href="composite.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"fengshiqi1998/SABook","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../designmodel.html">
+            
+                <a href="../designmodel.html">
+            
+                    
+                    零、设计原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="singleton.html">
+            
+                <a href="singleton.html">
+            
+                    
+                    一、单例模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="observer.html">
+            
+                <a href="observer.html">
+            
+                    
+                    二、观察者模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="adapter.html">
+            
+                <a href="adapter.html">
+            
+                    
+                    三、适配器模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="strategy.html">
+            
+                <a href="strategy.html">
+            
+                    
+                    四、策略模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="composite.html">
+            
+                <a href="composite.html">
+            
+                    
+                    五、组合模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="decorator.html">
+            
+                <a href="decorator.html">
+            
+                    
+                    六、装饰模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="state.html">
+            
+                <a href="state.html">
+            
+                    
+                    七、状态模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="command.html">
+            
+                <a href="command.html">
+            
+                    
+                    八、命令模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="facade.html">
+            
+                <a href="facade.html">
+            
+                    
+                    九、外观模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="proxy.html">
+            
+                <a href="proxy.html">
+            
+                    
+                    十、代理模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="bridge.html">
+            
+                <a href="bridge.html">
+            
+                    
+                    十一、桥接模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="iterator.html">
+            
+                <a href="iterator.html">
+            
+                    
+                    十二、迭代器模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="filter.html">
+            
+                <a href="filter.html">
+            
+                    
+                    十三、管道过滤器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="MVC.html">
+            
+                <a href="MVC.html">
+            
+                    
+                    十四、MVC架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="SAstyle.html">
+            
+                <a href="SAstyle.html">
+            
+                    
+                    十五、软件体系结构风格
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >六、装饰模式</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon fa fa-hand-o-right"><a class="on-toolbar-action" aria-label="" href="#">&#x76EE;&#x5F55;</a></span></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#anchor"><b> </b>&#x88C5;&#x9970;&#x6A21;&#x5F0F;</a></li><ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#anchor_1"><b>1. </b>&#x73AF;&#x5883;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#anchor_2"><b>2. </b>&#x95EE;&#x9898;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#anchor_3"><b>3. </b>&#x8BE6;&#x89E3;</a></li><ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#anchor_4"><b>3.1. </b>&#x88C5;&#x9970;&#x6A21;&#x5F0F;</a></li><li><span class="title-icon fa fa-hand-o-right"></span><a href="#anchor_5"><b>3.2. </b>&#x8BBE;&#x8BA1;&#x7C7B;&#x56FE;</a></li></ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#anchor_6"><b>4. </b>&#x5B9E;&#x73B0;</a></li></ul></ul></div><a href="#anchor" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="anchor"><a name="anchor" class="anchor-navigation-ex-anchor" href="#anchor"><i class="fa fa-link" aria-hidden="true"></i></a> &#x88C5;&#x9970;&#x6A21;&#x5F0F;</h1>
+<h2 id="anchor_1"><a name="anchor_1" class="anchor-navigation-ex-anchor" href="#anchor_1"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x73AF;&#x5883;</h2>
+<ul>
+<li>&#x6C7D;&#x8F66;4s&#x5E97;&#x6C7D;&#x8F66;&#x9500;&#x552E;</li>
+<li>&#x51FA;&#x552E;&#x5965;&#x8FEA;A1&#xFF0C;A4&#xFF0C;A6&#xFF1B;</li>
+<li>&#x53EF;&#x88C5;&#x9970;&#x7684;&#x7EC4;&#x4EF6;&#x5012;&#x8F66;&#x96F7;&#x8FBE;&#xFF0C;&#x771F;&#x76AE;&#x5EA7;&#x6905;&#xFF0C;gps&#x5B9A;&#x4F4D;</li>
+<li>&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x6311;&#x9009;&#x6C7D;&#x8F66;&#x7684;&#x578B;&#x53F7;&#xFF0C;&#x52A0;&#x4EFB;&#x610F;&#x7684;&#x7EC4;&#x4EF6;</li>
+</ul>
+<h2 id="anchor_2"><a name="anchor_2" class="anchor-navigation-ex-anchor" href="#anchor_2"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x95EE;&#x9898;</h2>
+<ul>
+<li>&#x4E0D;&#x5FC5;&#x6539;&#x53D8;&#x539F;&#x7C7B;&#x6587;&#x4EF6;&#x548C;&#x4F7F;&#x7528;&#x7EE7;&#x627F;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x52A8;&#x6001;&#x7684;&#x6269;&#x5C55;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x7684;&#x529F;&#x80FD;&#x3002;</li>
+<li>&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x53EF;&#x7EF4;&#x62A4;&#x6027;&#xFF0C;&#x53EF;&#x6269;&#x5C55;&#x6027;&#x5DEE;&#x3002;</li>
+</ul>
+<h2 id="anchor_3"><a name="anchor_3" class="anchor-navigation-ex-anchor" href="#anchor_3"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x8BE6;&#x89E3;</h2>
+<h3 id="anchor_4"><a name="anchor_4" class="anchor-navigation-ex-anchor" href="#anchor_4"><i class="fa fa-link" aria-hidden="true"></i></a>3.1. &#x88C5;&#x9970;&#x6A21;&#x5F0F;</h3>
+<ul>
+<li><p>&#x88C5;&#x9970;&#x6A21;&#x5F0F;&#x4E2D;&#x7684;&#x89D2;&#x8272;&#xFF1A;&#x6CB9;&#x6F06;&#x5DE5;(decorator)&#x662F;&#x7528;&#x6765;&#x5237;&#x6CB9;&#x6F06;&#x7684;&#xFF1B;&#x88AB;&#x4FEE;&#x9970;&#x8005;(decoratee)&#x662F;&#x88AB;&#x5237;&#x6CB9;&#x6F06;&#x7684;&#x5BF9;&#x8C61;&#x3002;</p>
+</li>
+<li><p><strong>&#x52A8;&#x6001;</strong>&#x7ED9;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;<strong>&#x6DFB;&#x52A0;&#x4E00;&#x4E9B;&#x989D;&#x5916;&#x7684;&#x529F;&#x80FD;&#x548C;&#x804C;&#x8D23;</strong>&#xFF0C;&#x5C31;&#x8C61;&#x5728;&#x5899;&#x4E0A;&#x5237;&#x6CB9;&#x6F06;&#x3002;</p>
+</li>
+<li><p>&#x5B9E;&#x73B0;&#x88C5;&#x9970;&#x6A21;&#x5F0F;&#x6709;&#x5F88;&#x591A;&#x5F62;&#x5F0F;&#xFF0C;&#x6700;&#x5E38;&#x89C1;&#x7684;&#x4E00;&#x79CD;&#x5C31;&#x662F;<strong>&#x201C;&#x5B9E;&#x73B0;&#x88AB;&#x88C5;&#x9970;&#x8005;&#x7C7B;---&#x5B9A;&#x4E49;&#x88AB;&#x88C5;&#x9970;&#x8005;&#x5BF9;&#x8C61;----&#x4F7F;&#x7528;&#x88AB;&#x88C5;&#x9970;&#x8005;&#x5BF9;&#x8C61;&#x4EA7;&#x751F;&#x88C5;&#x9970;&#x8005;&#x5BF9;&#x8C61;&#x201D;</strong>&#x3002;</p>
+</li>
+</ul>
+<h3 id="anchor_5"><a name="anchor_5" class="anchor-navigation-ex-anchor" href="#anchor_5"><i class="fa fa-link" aria-hidden="true"></i></a>3.2. &#x8BBE;&#x8BA1;&#x7C7B;&#x56FE;</h3>
+<figure id="fig1.8.1"><a href="../images/decorator/decoratorclass.png" data-lightbox="1.8.1"><img src="../images/decorator/decoratorclass.png" alt="decoratorclass"></a><figcaption>&#x56FE;&#xFF1A;decoratorclass</figcaption></figure>
+<h2 id="anchor_6"><a name="anchor_6" class="anchor-navigation-ex-anchor" href="#anchor_6"><i class="fa fa-link" aria-hidden="true"></i></a>4. &#x5B9E;&#x73B0;</h2>
+<ul>
+<li>&#x9996;&#x5148;&#x5B9A;&#x4E49;&#x88AB;&#x88C5;&#x9970;&#x8005;&#x7C7B;</li>
+<li>&#x901A;&#x8FC7;&#x88AB;&#x88C5;&#x9970;&#x8005;&#x5BF9;&#x8C61;&#x4EA7;&#x751F;&#x88C5;&#x9970;&#x8005;&#x5BF9;&#x8C61;</li>
+</ul>
+<footer class="page-footer"><span class="copyright">&#xA9; 2019  &#x51AF;&#x4E16;&#x797A;. All rights reserved.</span><span class="footer-modification"><span id="busuanzi_container_site_uv" style="display:none">&#x672C;&#x7AD9;&#x8BBF;&#x5BA2;&#x6570; <span id="busuanzi_value_site_uv"></span> &#x4EBA;&#x6B21;</span></span></footer><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="composite.html" class="navigation navigation-prev " aria-label="Previous page: 五、组合模式">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="state.html" class="navigation navigation-next " aria-label="Next page: 七、状态模式">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"六、装饰模式","level":"1.8","depth":1,"next":{"title":"七、状态模式","level":"1.9","depth":1,"path":"chapters/state.md","ref":"chapters/state.md","articles":[]},"previous":{"title":"五、组合模式","level":"1.7","depth":1,"path":"chapters/composite.md","ref":"chapters/composite.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","-sharing","books","edit-link","sharing-plus","github-buttons@2.1.0"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"books":{"github_url":"https://fengshiqi1998.github.io/SABook/","prism_themes":"prismjs/themes/prism.css","variable_name":"_pictures"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"github-buttons":{"repo":"fengshiqi1998/SABook","types":["star"],"size":"small"},"edit-link":{"label":"编辑本页","base":"https://github.com/fengshiqi1998/SABook/blob/master/"},"sharing":{"qq":true,"all":["weibo","douban","qzone","qq"],"douban":true,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":false},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"fontsettings":{"theme":"white","family":"sans","size":2}},"theme":"default","author":"冯世祺","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"alt":"SArelative","url":"images/SArelative.png","label":"SArelative","key":"1.1.1","backlink":"index.html#fig1.1.1","nro":1,"list_caption":"图：SArelative"},{"alt":"DBconnect","url":"images/DBconnect.png","label":"DBconnect","key":"1.2.1","backlink":"designmodel.html#fig1.2.1","nro":2,"list_caption":"图：DBconnect"},{"alt":"factorymodel","url":"images/factorymodel.png","label":"factorymodel","key":"1.2.2","backlink":"designmodel.html#fig1.2.2","nro":3,"list_caption":"图：factorymodel"},{"alt":"dependencyprinciple","url":"images/dependencyprinciple.png","label":"dependencyprinciple","key":"1.2.3","backlink":"designmodel.html#fig1.2.3","nro":4,"list_caption":"图：dependencyprinciple"},{"alt":"singleton","url":"../images/singleton/singleton.png","label":"singleton","key":"1.3.1","backlink":"chapters/singleton.html#fig1.3.1","nro":5,"list_caption":"图：singleton"},{"alt":"singletoncode","url":"../images/singleton/singletoncode.png","label":"singletoncode","key":"1.3.2","backlink":"chapters/singleton.html#fig1.3.2","nro":6,"list_caption":"图：singletoncode"},{"alt":"observeruw","url":"../images/observer/observeruw.png","label":"observeruw","key":"1.4.1","backlink":"chapters/observer.html#fig1.4.1","nro":7,"list_caption":"图：observeruw"},{"alt":"success","url":"../images/adapter/success.png","label":"success","key":"1.5.1","backlink":"chapters/adapter.html#fig1.5.1","nro":8,"list_caption":"图：success"},{"alt":"combine","url":"../images/adapter/combine.png","label":"combine","key":"1.5.2","backlink":"chapters/adapter.html#fig1.5.2","nro":9,"list_caption":"图：combine"},{"alt":"step1","url":"../images/adapter/step1.png","label":"step1","key":"1.5.3","backlink":"chapters/adapter.html#fig1.5.3","nro":10,"list_caption":"图：step1"},{"alt":"step2","url":"../images/adapter/step2.png","label":"step2","key":"1.5.4","backlink":"chapters/adapter.html#fig1.5.4","nro":11,"list_caption":"图：step2"},{"alt":"strategyalgorithm","url":"../images/strategy/strategyalgorithm.png","label":"strategyalgorithm","key":"1.6.1","backlink":"chapters/strategy.html#fig1.6.1","nro":12,"list_caption":"图：strategyalgorithm"},{"alt":"strategydefineinterface","url":"../images/strategy/strategydefineinterface.png","label":"strategydefineinterface","key":"1.6.2","backlink":"chapters/strategy.html#fig1.6.2","nro":13,"list_caption":"图：strategydefineinterface"},{"alt":"strategyrealization1","url":"../images/strategy/strategyrealization1.png","label":"strategyrealization1","key":"1.6.3","backlink":"chapters/strategy.html#fig1.6.3","nro":14,"list_caption":"图：strategyrealization1"},{"alt":"strategyrealization2","url":"../images/strategy/strategyrealization2.png","label":"strategyrealization2","key":"1.6.4","backlink":"chapters/strategy.html#fig1.6.4","nro":15,"list_caption":"图：strategyrealization2"},{"alt":"strategydefinedev1","url":"../images/strategy/strategydefinedev1.png","label":"strategydefinedev1","key":"1.6.5","backlink":"chapters/strategy.html#fig1.6.5","nro":16,"list_caption":"图：strategydefinedev1"},{"alt":"strategydefinedev2","url":"../images/strategy/strategydefinedev2.png","label":"strategydefinedev2","key":"1.6.6","backlink":"chapters/strategy.html#fig1.6.6","nro":17,"list_caption":"图：strategydefinedev2"},{"alt":"compositedetail","url":"../images/composite/compositedetail.png","label":"compositedetail","key":"1.7.1","backlink":"chapters/composite.html#fig1.7.1","nro":18,"list_caption":"图：compositedetail"},{"alt":"compositestep1","url":"../images/composite/compositestep1.png","label":"compositestep1","key":"1.7.2","backlink":"chapters/composite.html#fig1.7.2","nro":19,"list_caption":"图：compositestep1"},{"alt":"compositestep2","url":"../images/composite/compositestep2.png","label":"compositestep2","key":"1.7.3","backlink":"chapters/composite.html#fig1.7.3","nro":20,"list_caption":"图：compositestep2"},{"alt":"compositestep3","url":"../images/composite/compositestep3.png","label":"compositestep3","key":"1.7.4","backlink":"chapters/composite.html#fig1.7.4","nro":21,"list_caption":"图：compositestep3"},{"alt":"compositestep4","url":"../images/composite/compositestep4.png","label":"compositestep4","key":"1.7.5","backlink":"chapters/composite.html#fig1.7.5","nro":22,"list_caption":"图：compositestep4"},{"alt":"decoratorclass","url":"../images/decorator/decoratorclass.png","label":"decoratorclass","key":"1.8.1","backlink":"chapters/decorator.html#fig1.8.1","nro":23,"list_caption":"图：decoratorclass"},{"alt":"staterole","url":"../images/state/staterole.png","label":"staterole","key":"1.9.1","backlink":"chapters/state.html#fig1.9.1","nro":24,"list_caption":"图：staterole"},{"alt":"commandstep","url":"../images/command/commandstep.png","label":"commandstep","key":"1.10.1","backlink":"chapters/command.html#fig1.10.1","nro":25,"list_caption":"图：commandstep"},{"alt":"commanduml","url":"../images/command/commanduml.png","label":"commanduml","key":"1.10.2","backlink":"chapters/command.html#fig1.10.2","nro":26,"list_caption":"图：commanduml"},{"alt":"commandrealization","url":"../images/command/commandrealization.png","label":"commandrealization","key":"1.10.3","backlink":"chapters/command.html#fig1.10.3","nro":27,"list_caption":"图：commandrealization"},{"alt":"facaderole","url":"../images/facade/facaderole.png","label":"facaderole","key":"1.11.1","backlink":"chapters/facade.html#fig1.11.1","nro":28,"list_caption":"图：facaderole"},{"alt":"bridgedivide","url":"../images/bridge/bridgedivide.png","label":"bridgedivide","key":"1.13.1","backlink":"chapters/bridge.html#fig1.13.1","nro":29,"list_caption":"图：bridgedivide"},{"alt":"bridgelogs","url":"../images/bridge/bridgelogs.png","label":"bridgelogs","key":"1.13.2","backlink":"chapters/bridge.html#fig1.13.2","nro":30,"list_caption":"图：bridgelogs"},{"alt":"大雁和翅膀和雁群的关系","url":"../images/bridge/bridgewildgoose.png","label":"大雁和翅膀和雁群的关系","key":"1.13.3","backlink":"chapters/bridge.html#fig1.13.3","nro":31,"list_caption":"图：大雁和翅膀和雁群的关系"},{"alt":"iteratorDesignClass","url":"../images/iterator/iteratorDesignClass.png","label":"iteratorDesignClass","key":"1.14.1","backlink":"chapters/iterator.html#fig1.14.1","nro":32,"list_caption":"图：iteratorDesignClass"},{"alt":"iteratorImplement ","url":"../images/iterator/iteratorImplement%20.png","label":"iteratorImplement ","key":"1.14.2","backlink":"chapters/iterator.html#fig1.14.2","nro":33,"list_caption":"图：iteratorImplement "},{"alt":"classicstyle","url":"../images/filter/classicstyle.png","label":"classicstyle","key":"1.15.1","backlink":"chapters/filter.html#fig1.15.1","nro":34,"list_caption":"图：classicstyle"},{"alt":"otherstyle","url":"../images/filter/otherstyle.png","label":"otherstyle","key":"1.15.2","backlink":"chapters/filter.html#fig1.15.2","nro":35,"list_caption":"图：otherstyle"},{"alt":"处理：数据到达即被激活，无数据时不工作。","url":"../images/filter/dataflow.png","label":"处理：数据到达即被激活，无数据时不工作。","key":"1.15.3","backlink":"chapters/filter.html#fig1.15.3","nro":36,"list_caption":"图：处理：数据到达即被激活，无数据时不工作。"}]},"title":"SABOOK","language":"zh-hans","gitbook":"*","description":"Software Architecture"},"file":{"path":"chapters/decorator.md","mtime":"2019-07-03T12:18:39.396Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-03T12:19:47.138Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-books/jquery.mark.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-books/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-books/main.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-books/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
